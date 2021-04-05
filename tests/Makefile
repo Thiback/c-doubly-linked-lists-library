@@ -64,7 +64,6 @@ all:			$(NAME)
 $(NAME):		fclean $(OBJ)
 				$(CC) $(CFLAGS) -o $(NAME) $(OBJ) $(CRITERION) $(CPPFLAGS)
 				./$(NAME)
-				gcovr -r ../lib --exclude-directories ../tests
 
 clean:
 				$(RM) -rf $(OBJ) $(DEBUG_OBJ)
