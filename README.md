@@ -33,4 +33,4 @@ The list of the "methods" include:
 -   __to_ptr_array__ (converts the list to a pointer array)
 
 Check out the small program written in src/main.c to have a usage example of the library.
-This library has been tested using criterion.
+This library has been tested using Criterion.
