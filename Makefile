@@ -61,7 +61,7 @@ fclean:		clean
 			make -C $(LIBDIR) fclean
 			make -C $(UT_DIR) fclean
 
-test:
+tests_run:
 			make -C $(UT_DIR) && ./tests/unit_tests
 
 debug:		$(DEBUG_OBJ)
